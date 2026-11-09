@@ -12,7 +12,10 @@
   "engines": {
     "node": ">=18"
   },
-  "dependencies": {
-    "@netlify/blobs": "^11.1.8"
-  }
+"dependencies": {
+  "@netlify/blobs": "11.1.7"
+},
+"overrides": {
+  "@netlify/otel": "7.0.6"
 }
+
